@@ -6,7 +6,7 @@ public class Test {
 		
 		System.out.println(comp.toString());
 		System.out.println(lapOne.toString());
-		System.out.println(lapTwo.toString());
+		System.out.println(lapTwo.toString() + "\n");
 		
 		comp.setRes(2160, 1440);
 		lapOne.decBattery();
@@ -14,13 +14,19 @@ public class Test {
 		
 		System.out.println(comp.toString());
 		System.out.println(lapOne.toString());
-		System.out.println(lapTwo.toString());
+		System.out.println(lapTwo.toString() + "\n");
 		
 		lapOne.chargeBattery();
 		lapTwo.chargeBattery(50);
 		
 		System.out.println(comp.toString());
 		System.out.println(lapOne.toString());
-		System.out.println(lapTwo.toString());
+		System.out.println(lapTwo.toString() + "\n");
+		
+		lapOne.decBattery(101);
+		lapTwo.chargeBattery();
+		System.out.println(comp.toString());
+		System.out.println(lapOne.toString());
+		System.out.println(lapTwo.toString() + "\n");
 	}
 }
