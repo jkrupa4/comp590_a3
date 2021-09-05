@@ -1,6 +1,6 @@
 # Toby
 Logging
 # Jack
-Error Catching (Laptop)
+~~Error Catching (Laptop)~~
 # Pinto
 Error Catching (Computer)
