@@ -6,6 +6,16 @@ public class Computer {
 		this.resX = resX;
 		this.resY = resY;
 	}
+
+	public int getResX()
+	{
+		return this.resX;
+	}
+
+	public int getResY()
+	{
+		return this.resY;
+	}
 	
 	public void setRes(int resX, int resY) {
 		this.resX = resX;
