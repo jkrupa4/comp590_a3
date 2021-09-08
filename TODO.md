@@ -1,6 +1,6 @@
 # Toby
-Logging
+~~Logging~~
 # Jack
 ~~Error Catching (Laptop)~~
 # Pinto
-Error Catching (Computer)
+~~Error Catching (Computer)~~
