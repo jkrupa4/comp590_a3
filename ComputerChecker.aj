@@ -1,6 +1,6 @@
 public aspect ComputerChecker
 {
-	before(Computer c): this(c) &&  call(void Computer.setRes(int,int))
+	before(Computer c): this(c) &&  execution(void Computer.setRes(int,int))
 	{
 		if (c.getResX() <= 0 || c.getResY() <= 0)
 		{
@@ -13,7 +13,7 @@ public aspect ComputerChecker
 
 	}
 
-	before(Computer c): this(c) && call(String Computer.getRes())
+	before(Computer c): this(c) && execution(String Computer.getRes())
 	{
 		if (c.getResX() <= 0 || c.getResY() <=0)
 		{
